@@ -5,7 +5,7 @@ JDK 25, Gradle 9.5.1 (run `gradle wrapper --gradle-version 9.5.1` once, or open 
 Minecraft 26.2, Fabric Loader 0.19.3+, Fabric API 0.152+
 Spotify setup (one time)
 https://developer.spotify.com/dashboard -> Create app.
-Add Redirect URI exactly: `http://127.0.0.1:8888/callback`
+Add Redirect URI exactly: `https://127.0.0.1:8888/callback`
 Copy the Client ID into `config/lyrics3d.json` (created on first launch) -> `"clientId"`.
 In game press H, approve in the browser. The refresh token is saved to `config/lyrics3d\_token.json`.
 (Spotify requires a Premium account for API access on new apps in development mode.)
